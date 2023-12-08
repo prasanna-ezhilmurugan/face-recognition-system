@@ -5,7 +5,7 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_fronta
 
 # resolution of the webcam
 screen_width = 1280       # try 640 if code fails
-screen_height = 720
+screen_height = 1280
 
 # default webcam
 stream = cv2.VideoCapture(0)
